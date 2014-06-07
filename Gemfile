@@ -9,7 +9,7 @@ gem "sass-rails", "~> 4.0.0"
 gem "bootstrap-sass", "~> 2.3.2"
 gem "bootswatch-rails"
 
-gem "mysql2"
+gem "pg"
 
 # on windows replace with thin gem
 gem "unicorn"
@@ -30,7 +30,6 @@ gem "therubyracer"
 gem "uglifier"
 
 group :test, :development do
-  gem "debugger"
   gem "rspec-rails"
   gem "factory_girl_rails"
   gem "mocha", :require => false
